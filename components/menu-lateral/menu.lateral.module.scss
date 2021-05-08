@@ -1,0 +1,11 @@
+.menuLateral {
+    position: absolute;
+    width: 300px;
+    height: 480px;
+    right: 8px;
+    top: 3px;
+    padding: 3px;
+
+    background: white;
+    border:solid 1px var(--gray-100)
+}

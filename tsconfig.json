@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "allowJs": true,
+    "jsx": "preserve",
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "pages/_app.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

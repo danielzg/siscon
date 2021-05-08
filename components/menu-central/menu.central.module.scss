@@ -1,0 +1,39 @@
+.menuVertical {
+    position: absolute;
+    width: 98%;
+    height: 200px;
+    left: 16px;
+    top: 3px;
+    background: white;
+    border: 1px solid var(--gray-100);
+    padding: 16px;
+
+    .listagem{
+        display: flex;
+        justify-content: space-around;
+
+        h6{
+            color: var(--gray-100);
+            border-left: solid 2px var(--gray-500);
+        }
+
+        a {
+            margin-left: 8px;
+        }
+    }
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 170px;
+    padding: 2px;
+}
+
+.titulo{
+    font-weight: 300;
+    font-size: 1.0rem;
+    padding-left: .3rem;
+    padding-bottom: .2rem;
+}
